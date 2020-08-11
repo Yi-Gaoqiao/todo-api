@@ -9,7 +9,7 @@ RUN pip install -r /requirements.txt
 
 RUN mkdir /django-api                        
 WORKDIR /django-api                          
-COPY ./django-api /todo-api                  
+COPY ./django-api /django-api                  
 
 RUN adduser -D user                          
 USER user                           
